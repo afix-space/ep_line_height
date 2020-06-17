@@ -23,9 +23,6 @@ var postAceInit = function(hook, context){
   $('.line-height-menu').hover(function(){
     $('.submenu > .height-selection').attr('size', 4);
   });
-  $('.line-height').click(function(){
-    $('.line-height-select').toggle();
-  });
 };
 
 exports.aceGetFilterStack = function(name, context){
